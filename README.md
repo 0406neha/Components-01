@@ -1,2 +1,5 @@
-# Components-01
-accordion component!!
+# Design-components!!
+ACCORDION-1
+CAROUSEL-2
+TABLE-3
+PAGINATON-4
