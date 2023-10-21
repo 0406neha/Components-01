@@ -30,6 +30,15 @@
 
       header {
         height: 100vh;
+        position: relative;
+
+        background-image: linear-gradient(
+            rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)
+          ),
+          url(hero.jpg);
+        background-size: cover;
+        color: #fff;
       }
 
       nav {
@@ -38,7 +47,23 @@
         display: flex;
         justify-content: space-between;
         padding-top: 32px;
-        background-color: green;
+        /* background-color: green; */
+      }
+
+      .header-container {
+        width: 1200px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        /* background-color: violet; */
+
+        /* text-align: center; */
+      }
+
+      .header-container-inner {
+        width: 50%;
       }
 
       h1 {
@@ -48,7 +73,7 @@
 
       p {
         font-size: 20px;
-        line-height: 1.6;
+        line-height: 1.05;
         margin-bottom: 48px;
       }
 
